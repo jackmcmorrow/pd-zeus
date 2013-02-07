@@ -1,0 +1,782 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"do",
+				"do"
+			],
+			[
+				"SAIDA",
+				"SAIDA"
+			],
+			[
+				"Dados",
+				"dados"
+			],
+			[
+				"n",
+				"n"
+			],
+			[
+				"paddin",
+				"padding-top"
+			],
+			[
+				"border-",
+				"border-radius"
+			],
+			[
+				"border-b",
+				"border-bottom"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"w",
+				"width"
+			],
+			[
+				"border-c",
+				"border-color"
+			],
+			[
+				"padd",
+				"padding-right"
+			],
+			[
+				"box",
+				"box-decoration-break"
+			],
+			[
+				"foc",
+				":focus"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"na",
+				"name	@name"
+			],
+			[
+				"margin",
+				"margin-right"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"r",
+				"rgba()"
+			],
+			[
+				"bac",
+				"background-image"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"border-bo",
+				"border-bottom-color"
+			],
+			[
+				"marg",
+				"margin-right"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"in",
+				"inline"
+			],
+			[
+				"td",
+				"td"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"repe",
+				"repeat-x"
+			],
+			[
+				"bord",
+				"border-left"
+			],
+			[
+				"backgroun",
+				"background-color"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"f",
+				"float"
+			],
+			[
+				"url",
+				"url(image-url.gif)"
+			],
+			[
+				"br",
+				"BR"
+			],
+			[
+				"bor",
+				"border-right"
+			],
+			[
+				"d",
+				"display"
+			],
+			[
+				"u",
+				"url(image-url.gif)"
+			],
+			[
+				"m",
+				"margin-top"
+			],
+			[
+				"te",
+				"text	@=text"
+			],
+			[
+				"s",
+				"size	@size"
+			],
+			[
+				"line",
+				"select_lines"
+			],
+			[
+				"p",
+				"padding"
+			],
+			[
+				"ante",
+				"anterior-semestre"
+			],
+			[
+				"tet",
+				"text-align"
+			],
+			[
+				"col",
+				"color"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "pd-zeus.html",
+			"settings":
+			{
+				"buffer_size": 4351,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "sass/zeus.scss",
+			"settings":
+			{
+				"buffer_size": 140,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "Packages/LESS-build/LESS.sublime-build",
+	"command_palette":
+	{
+		"height": 58.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"form",
+				"Snippet: Bootstrap horizontal form"
+			],
+			[
+				"bootstrap",
+				"Snippet: Bootstrap starter"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"bootstra",
+				"Snippet: Bootstrap starter"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"less",
+				"Zen Coding: Evaluate math expression"
+			],
+			[
+				"bootstrap for",
+				"Snippet: Bootstrap horizontal form"
+			],
+			[
+				"alert",
+				"Snippet: Bootstrap default alert"
+			],
+			[
+				"pagin",
+				"Snippet: Bootstrap pagination"
+			],
+			[
+				"nav",
+				"Snippet: Bootstrap navigation bar"
+			],
+			[
+				"navigat",
+				"Snippet: Bootstrap tabbable navigation tabs"
+			],
+			[
+				"bootstrap form",
+				"Snippet: Bootstrap horizontal form"
+			],
+			[
+				"bootstr",
+				"Snippet: Bootstrap tabbable navigation tabs on the left"
+			],
+			[
+				"swe",
+				"Sweyla's Color Theme Generator: Generate bright!"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"zen",
+				"Zen Coding: Zen as you type"
+			],
+			[
+				"",
+				"HTML: Wrap Selection With Tag"
+			],
+			[
+				"bootstrap str",
+				"Snippet: Bootstrap starter"
+			],
+			[
+				"bootstrap he",
+				"Snippet: Bootstrap basic three column grid"
+			],
+			[
+				"lo",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"lorem",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"sni",
+				"Snippet: Bootstrap danger button"
+			],
+			[
+				"snipp",
+				"Snippet: Bootstrap horizontal form"
+			],
+			[
+				"syntax: HTM",
+				"Set Syntax: HTML"
+			],
+			[
+				"Snippet: ",
+				"Snippet: #!/usr/bin/env"
+			],
+			[
+				"upgra",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"FORM",
+				"Snippet: Bootstrap horizontal form"
+			],
+			[
+				"INSTALL",
+				"Package Control: Install Package"
+			],
+			[
+				"INSTAL",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 349.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/RailsInstaller/railsinstaller_demo/app/views/welcome/index.html.erb",
+		"/C/RailsInstaller/railsinstaller_demo/app/controllers/welcome_controller.rb",
+		"/C/RailsInstaller/railsinstaller_demo/config/routes.rb",
+		"/S/bffc/extranet/site/public_html/wiki/skins/gumaxdd/gumax_droppy.css",
+		"/S/bffc/extranet/site/public_html/wiki/skins/gumaxdd/main.css",
+		"/C/Users/Daniel/Documents/GitHub/jack-css-icons/css/icones.css",
+		"/C/Users/Daniel/Documents/GitHub/jack-css-icons/criadordecss.html",
+		"/C/Users/Daniel/Documents/GitHub/jack-css-icons/Exemplos.html",
+		"/S/bffc/extranet/site/public_html/wiki/skins/gumaxdd/gumax-bffc.sublime-project",
+		"/S/bffc/extranet/site/public_html/wiki/skins/gumaxdd/gumax_main.css",
+		"/S/bffc/extranet/site/public_html/wiki/skins/gumaxdd/gumax_most_wanted.css",
+		"/S/bffc/extranet/site/public_html/wiki/skins/gumaxdd/gumax_template.css",
+		"/C/Users/Daniel/Hello-World/README",
+		"/S/bffc/extranet/site/public_html/wiki/skins/gumaxdd/gumax_print.css",
+		"/S/bffc/scm/site/public_html/wiki/skins/gumaxdd/main.css",
+		"/S/bffc/scm/site/public_html/wiki/skins/gumaxdd/gumax_droppy.css",
+		"/S/bffc/scm/site/public_html/wiki/skins/gumaxdd/gumax_template.css",
+		"/S/bffc/scm/site/public_html/wiki/skins/gumaxdd/gumax_main.css",
+		"/S/rsi/rio-demos/site/css/login.css",
+		"/S/rsi/rio-demos/site/css/structure.css",
+		"/S/rsi/rio-demos/site/css/demos.css",
+		"/S/rsi/rio-demos/site/css/style.css",
+		"/S/rsi/rio-demos/site/css/ie.css",
+		"/S/rsi/rio-demos/site/css/usersprofile.css",
+		"/T/!comum/05 fontes/livres/Museo 500/Museo500-Regular.otf",
+		"/S/bffc/extranet/site/public_html/wiki/profileinfo.php",
+		"/S/bffc/extranet/site/public_html/wiki/includes/installer/LocalSettingsGenerator.php",
+		"/S/bffc/extranet/site/public_html/wiki/includes/Setup.php",
+		"/S/rsi/rio-demos/home.html",
+		"/S/bffc/scm/site/public_html/wiki/skins/scm.php",
+		"/S/bffc/scm/site/public_html/wiki/skins/scm.deps.php",
+		"/S/bffc/scm/site/public_html/wiki/skins/scm/main.css",
+		"/S/bffc/scm/site/public_html/wiki/skins/MonoBook.php",
+		"/S/bffc/scm/site/public_html/wiki/skins/MonoBook.deps.php",
+		"/S/bffc/scm/site/public_html/wiki/skins/Modern.php",
+		"/S/bffc/scm/site/public_html/wiki/skins/MySkin.deps.php",
+		"/S/bffc/scm/site/public_html/wiki/skins/MySkin.php",
+		"/S/bffc/scm/site/public_html/wiki/skins/Simple.php",
+		"/S/bffc/scm/site/public_html/wiki/skins/simple/main.css",
+		"/S/bffc/scm/site/public_html/wiki/skins/myskin/scm.css",
+		"/S/bffc/scm/site/public_html/wiki/skins/myskin/main.css",
+		"/S/bffc/scm/site/public_html/wiki/skins/Nostalgia.php",
+		"/S/reembolso/site/templates/css/base.css",
+		"/S/reembolso/site/templates/produto.html",
+		"/S/reembolso/site/templates/cadastre-se.html",
+		"/S/reembolso/site/templates/cestadecompras_logado.html",
+		"/S/reembolso/site/templates/cestadecompras_final.html",
+		"/S/reembolso/site/templates/cestadecompras_dadosdecompra.html",
+		"/S/reembolso/site/templates/cestadecompras_confirma.html",
+		"/S/reembolso/site/templates/cestadecompras.html",
+		"/S/reembolso/site/templates/conteudo.html",
+		"/S/reembolso/site/templates/produto-ajax.html",
+		"/S/reembolso/site/templates/meuspedidos.html",
+		"/S/reembolso/site/templates/layout2.html",
+		"/S/reembolso/site/templates/layout1.html",
+		"/S/reembolso/site/templates/Index.html",
+		"/S/rsi/rio-demos/ideias.html",
+		"/S/rsi/rio-demos/biblioteca.html",
+		"/S/rsi/rio-demos/forum.html",
+		"/S/reembolso/site/templates/js/jquery.colorbox-min.js",
+		"/C/Users/Daniel/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/Daniel/Dropbox/Public/Web/VB/Web/index.html",
+		"/C/Users/Daniel/Dropbox/Public/Web/VB/Web/css/vb.css",
+		"/S/rsi/fgv/sites/02-sme/templates/FDRH/FDRH-submenu.html",
+		"/S/rsi/fgv/sites/02-sme/templates/FDRH/FDRH20120802.html",
+		"/T/Reembolso Central/261 - Upgrade do site - ERP/templates/meuspedidos.html",
+		"/T/Reembolso Central/261 - Upgrade do site - ERP/templates/Index.html",
+		"/T/Reembolso Central/261 - Upgrade do site - ERP/templates/css/base.css",
+		"/T/Reembolso Central/261 - Upgrade do site - ERP/templates/css/cores.less",
+		"/C/Users/Daniel/Dropbox/Public/Web/VB/Web/css/base.css",
+		"/C/Users/Daniel/Dropbox/Public/Realejo/FDRH/css/base.css",
+		"/S/reembolso/site/app_web/layouts/base.phtml",
+		"/C/Users/Daniel/Dropbox/Public/Realejo/FDRH/FDRH-home.html",
+		"/C/Users/Daniel/Dropbox/Public/Web/ARVOZ - testes/js/jquery.js",
+		"/C/Users/Daniel/Dropbox/Public/Web/ARVOZ - testes/menu-interno.html",
+		"/T/Bobs/91 - Portal SCM/docs/Manual SCM Esquipamento/Interativo/manual-interativo-beta.html",
+		"/C/Users/Daniel/Dropbox/Public/Realejo/FDRH/FDRH-cadastro2.html",
+		"/C/Users/Daniel/Dropbox/Public/Realejo/FDRH/FDRH-cadastro.html",
+		"/C/Users/Daniel/Dropbox/Public/Realejo/FDRH/FDRH-ver-filtros-tabelas.html",
+		"/T/Bobs/91 - Portal SCM/docs/Manual SCM Esquipamento/Interativo/manual-interativo-beta",
+		"/C/Users/Daniel/AppData/Roaming/Sublime Text 2/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/Users/Daniel/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/Daniel/Dropbox/Public/Realejo/FDRH/FDRH20120802.html",
+		"/C/Users/Daniel/Dropbox/Public/Realejo/FDRH/FDRH-ver-dados.html",
+		"/C/Users/Daniel/Dropbox/Public/Realejo/FDRH.html",
+		"/C/Users/Daniel/AppData/Roaming/Sublime Text 2/Packages/ZenCoding/zen-coding.sublime-settings",
+		"/C/Users/Daniel/AppData/Roaming/Sublime Text 2/Packages/User/zen-coding.sublime-settings",
+		"/S/bobs/bobs/site/app_web/views/scripts/promocoes/cupom.phtml",
+		"/S/rsi/fgv/oficina/templates/FDRH.html",
+		"/S/rsi/fgv/sites/02-sme/css/base.css",
+		"/S/rsi/fgv/sites/01-cdes/Sema/estilos.css",
+		"/S/bobs/bobs/site/app_web/views/scripts/_modelos/confirmacao-exclusao.phtml",
+		"/S/bobs/bobs/site/app_web/views/scripts/_modelos/indicacao.phtml",
+		"/S/bobs/bobs/site/app_web/views/scripts/_tags/novocupom.phtml",
+		"/S/bobs/bobs/site/app_web/views/scripts/_modelos/confirmacao.phtml",
+		"/S/!malkmus/site/application/layouts/base.phtml",
+		"/S/!malkmus/site/application/views/scripts/layout/basico.phtml",
+		"/S/!malkmus/site/public_html/css/maisicones.css",
+		"/S/bobs/bobs/site/app_web/views/scripts/_modelos/confirmacao-e-convite.phtml",
+		"/S/rsi/fgv/sites/02-sme/html/menu.php",
+		"/S/rsi/fgv/sites/01-cdes/Sema/index.php",
+		"/S/rsi/fgv/sites/02-sme/html/cabecalho.html",
+		"/S/rsi/fgv/sites/01-cdes/Sema/estilos2.css",
+		"/S/bobs/bobs/site/public_html/css/base-1.5.0.css",
+		"/S/bobs/bobs/site/public_html/css/colorbox-1.4.0.css",
+		"/S/bobs/bobs/site/app_web/layouts/base.phtml",
+		"/S/bobs/bobs/site/app_web/layouts/base-iframe.phtml",
+		"/S/bobs/bobs/site/app_web/views/scripts/login/index.phtml",
+		"/S/bobs/bobs/site/app_web/views/scripts/cardapio/produtos.phtml",
+		"/C/Users/Daniel/Documents/dumponmyhead.js",
+		"/S/bobs/bobs/site/app_web/views/scripts/_modelos/confirmacao-descadastro.phtml",
+		"/S/bobs/bobs/site/public_html/css/base-1.4.16.css",
+		"/S/bobs/bobs/site/app_web/views/scripts/_modelos/confirmacao-e-convite.html",
+		"/S/bobs/bobs/site/app_web/views/scripts/_modelos/indicacao.html",
+		"/S/bobs/bobs/site/app_web/views/scripts/_modelos/confirmacao.html",
+		"/S/bobs/bobs/site/app_web/views/scripts/_modelos/confirmacao-descadastro.html",
+		"/S/rsi/fgv/sites/02-sme/css/base_r5.css",
+		"/S/rsi/fgv/sites/02-sme/templates/r5-projeto.html",
+		"/C/Users/Daniel/Documents/testes.html",
+		"/S/rsi/fgv/sites/02-sme/cat_apresenta.php",
+		"/S/rsi/fgv/sites/02-sme/css/base-limpo.css",
+		"/S/bffc/extranet/oficina/templates/css/bffc.css",
+		"/S/rsi/fgv/sites/02-sme/prt_etapas_cadastro2.php",
+		"/S/rsi/fgv/sites/02-sme/prt_ficha2.php",
+		"/S/rsi/fgv/sites/02-sme/prt_etapas2.php",
+		"/S/rsi/fgv/sites/02-sme/prt_orc_prog_exec.php",
+		"/S/rsi/fgv/sites/02-sme/petitMenuProjeto.php",
+		"/T/RSI/03 - FGV - Estado do RS/06 - SME/templates/css/base.css"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"S:\\bffc\\extranet\\site\\public_html\\wiki",
+			"T:\\Reembolso Central\\261 - Upgrade do site - ERP\\templates,S:\\reembolso\\site\\templates,S:\\reembolso\\site\\templates",
+			"T:\\Reembolso Central\\261 - Upgrade do site - ERP\\templates,S:\\reembolso\\site\\templates",
+			"T:\\Reembolso Central\\261 - Upgrade do site - ERP\\templates",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"form",
+			"		\n",
+			"total = BigNum.new",
+			"h2",
+			"gumax-footer",
+			".selected",
+			"padding",
+			"print",
+			"10px",
+			"»",
+			";\n",
+			"bg.jp",
+			"header",
+			"$wgLogo",
+			"$wg",
+			"$wgLogo",
+			"beitraege",
+			"2px",
+			"consultoria",
+			"desenvolvimento",
+			"simple",
+			"simples",
+			"<div class=\"span8\">\n                            <img src=\"img/banner-teste.gif\" alt=\"\">",
+			"<a href=\"#\">Confirmação",
+			"<a href=\"#\">Dados de envio e pagamento",
+			"<a href=\"#\">Identificação",
+			"<a href=\"/\" class=\"logo-reembolso-central\"></a>",
+			"#header",
+			"Thunbnail label",
+			"0",
+			"document",
+			"div",
+			"precisa",
+			"precisa de ajuda?",
+			"                                <li><a href=\"\">Pintura</a></li>\n                                <li><a href=\"\">Ponto de Cruz</a></li>\n                                <li><a href=\"\">Bordados Diversos</a></li>\n                                <li><a href=\"\">Fitas</a></li>\n                                <li><a href=\"\">Culinária</a></li>\n                                <li><a href=\"\">Beleza</a></li>\n                                <li><a href=\"\">Tapeçaria</a></li>\n                                <li><a href=\"\">Variedades</a></li>\n                                <li><a href=\"\">Artesanatos Diversos</a></li>",
+			"icon-web",
+			"span8",
+			"150",
+			"\">\n",
+			"layout",
+			"/js",
+			"/assets",
+			"strong",
+			"</dd>",
+			"<dd>",
+			"</dt>",
+			"<dt>",
+			"dt",
+			"optionsCheckbox",
+			"<li class=\"active\"><a href=\"#\">Órgãos</a></li>",
+			"<a href=#><i class=\"icon-eye-open\"></i></a>",
+			"/js",
+			"https://raw.github.com/twitter/bootstrap/master",
+			"border",
+			"33px",
+			"cor",
+			".conteudo.bobsfa a.link-form, #frmFiltro a, #frmBusca a",
+			".conteudo.bobsfa",
+			"#cboxWrapper #cboxContent #cboxLoadedContent",
+			"#cboxLoadedContent",
+			"#cboxWrapper #cboxContent #cboxLoadedContent",
+			"#cboxLoadedContent",
+			"#cboxWrapper #cboxContent #cboxLoadedContent",
+			"'SuperRetroM54Regular',Impact,'Arial Black'",
+			"href=\"pro",
+			"http://<?php echo $_SERVER['HTTP_HOST'];?>",
+			"url('",
+			"src=",
+			"legend",
+			"h2",
+			"ctrl+l",
+			"h3",
+			"form",
+			"js",
+			"div",
+			"i",
+			"character",
+			"é",
+			"õ",
+			"ç",
+			"ê",
+			"ã",
+			"á",
+			"ê",
+			"Ó",
+			"é",
+			"õ",
+			"á",
+			"ç",
+			"ã",
+			"height=\"5\"",
+			"<p style=\"padding-left: 13px",
+			"inline images",
+			"http://<?php echo $_SERVER['HTTP_HOST'];?>",
+			"images/",
+			"fix",
+			"<img src=\"images/confirmacao/pxtransp.gif\"",
+			"http://<?php echo $_SERVER['HTTP_HOST'];?>",
+			"sensible",
+			"Some",
+			"/images/",
+			"../images",
+			"/images",
+			"<?php echo $_SERVER['HTTP_HOST'];?>",
+			"solid",
+			"estado\"",
+			"\"estado\"",
+			"class=\"estado\"",
+			" class=\"estado\"",
+			" class=\"num\""
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"<div class=\"span8\" style=\"margin-top: 14px;\">\n                            <img src=\"img/banner-teste.gif\" alt=\"\">",
+			"<a>Confirmação",
+			"<a>Dados de envio e pagamento",
+			"<a>Identificação",
+			"<a href=\"Index.html\" class=\"logo-reembolso-central\"></a>",
+			"                                <li><a href=\"\"><i class=\"reembolso flor1\"></i> Pintura</a></li>\n                                <li><a href=\"\"><i class=\"reembolso flor1\"></i> Ponto de Cruz</a></li>\n                                <li><a href=\"\"><i class=\"reembolso flor1\"></i> Bordados Diversos</a></li>\n                                <li><a href=\"\"><i class=\"reembolso flor1\"></i> Fitas</a></li>\n                                <li><a href=\"\"><i class=\"reembolso flor1\"></i> Culinária</a></li>\n                                <li><a href=\"\"><i class=\"reembolso flor1\"></i> Beleza</a></li>\n                                <li><a href=\"\"><i class=\"reembolso flor1\"></i> Tapeçaria</a></li>\n                                <li><a href=\"\"><i class=\"reembolso flor1\"></i> Variedades</a></li>\n                                <li><a href=\"\"><i class=\"reembolso flor1\"></i> Artesanatos Diversos</a></li>",
+			"h5",
+			"</p>",
+			"<p>",
+			"</strong>",
+			"<strong>",
+			"<li class=\"active\"><a href=\"FDRH-home.html\">Órgãos</a></li>",
+			"fix"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "pd-zeus.html",
+					"settings":
+					{
+						"buffer_size": 4351,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								819,
+								819
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 287.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "sass/zeus.scss",
+					"settings":
+					{
+						"buffer_size": 140,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								71,
+								71
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 94.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": false,
+	"side_bar_visible": true,
+	"side_bar_width": 159.0,
+	"status_bar_visible": true
+}

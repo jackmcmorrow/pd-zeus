@@ -1,0 +1,7 @@
+@charset "CP850";
+/* Compass é foda */
+/* Overrides das tosqueiras do Bootstrap */
+/* line 7, ../sass/zeus.scss */
+input {
+  width: auto;
+}
