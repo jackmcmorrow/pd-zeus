@@ -207,7 +207,7 @@
 			"file": "pd-zeus.html",
 			"settings":
 			{
-				"buffer_size": 4351,
+				"buffer_size": 7163,
 				"line_ending": "Windows"
 			}
 		},
@@ -223,7 +223,7 @@
 	"build_system": "Packages/LESS-build/LESS.sublime-build",
 	"command_palette":
 	{
-		"height": 58.0,
+		"height": 375.0,
 		"selected_items":
 		[
 			[
@@ -351,7 +351,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 400.0
+		"width": 514.0
 	},
 	"console":
 	{
@@ -666,24 +666,39 @@
 					"file": "pd-zeus.html",
 					"settings":
 					{
-						"buffer_size": 4351,
+						"buffer_size": 7163,
 						"regions":
 						{
+							"TagLint":
+							{
+								"flags": 52,
+								"icon": "dot",
+								"regions":
+								[
+									[
+										7141,
+										7147
+									]
+								],
+								"scope": "variable.parameter"
+							}
 						},
 						"selection":
 						[
 							[
-								819,
-								819
+								6946,
+								6946
 							]
 						],
 						"settings":
 						{
 							"auto_name": "",
-							"syntax": "Packages/HTML/HTML.tmLanguage"
+							"is_xml": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 287.0,
+						"translation.y": 450.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

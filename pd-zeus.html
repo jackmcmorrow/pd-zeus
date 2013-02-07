@@ -16,6 +16,7 @@
 			</div>
 		</div>
 		<div class="row-fluid">
+
 			<div class="span3">
 				<h3>Personagens</h3>
 				<ul class="nav nav-tabs nav-stacked">
@@ -24,18 +25,22 @@
 					<li><a href="#">Personagem 3</a></li>
 				</ul>
 			</div>
+
 			<div class="span9">
+
+		<div class="row-fluid">
+			<div class="span12">
+				<ul class="nav nav-pills">
+					<li><a href="#">Nova ficha</a></li>
+					<li><a href="#">Ficha rápida</a></li>
+					<li><a href="#">Personagem aleatório</a></li>
+				</ul>
+			</div>
+		</div>
+		<div id="pFicha" class="row-fluid">
+			<div class="span12">
+				<form class="form-vertical">
 				<div class="row-fluid">
-					<div class="span12">
-						<ul class="nav nav-pills">
-							<li><a href="#">Nova ficha</a></li>
-							<li><a href="#">Ficha rápida</a></li>
-							<li><a href="#">Personagem aleatório</a></li>
-						</ul>
-					</div>
-				</div>
-				<div id="pFicha" class="row-fluid">
-					<form class="form-vertical">
 					<div class="span6">
 						<fieldset>
 							<legend>História</legend>
@@ -47,6 +52,19 @@
 									<p class="help-block"></p>
 								</div>
 							</div>
+
+						<div class="control-group">
+							<label class="control-label" for="pSexo">Sexo</label>
+							<div class="controls">
+								<label class="radio">
+									<input type="radio" name="pSexo" id="pSexoM" value="M"> Masculino
+								</label>
+								<label class="radio">
+									<input type="radio" name="pSexo" id="pSexoF" value="F"> Feminino
+								</label>
+							</div>
+						</div>
+
 							<div class="control-group">
 								<label for="pDescFisica" class="control-label">Descrição física</label>
 								<div class="controls">
@@ -116,7 +134,7 @@
 					<div class="span6">
 						<fieldset>
 							<legend>Características</legend>
-						</fieldset>
+						
 						<div class="control-group">
 							<label for="pNivel" class="control-label">Nível</label>
 							<div class="controls">
@@ -124,15 +142,78 @@
 								<p class="help-block"></p>
 							</div>
 						</div>
+						<div class="control-group">
+							<label class="control-label" for="pRaca">Raça</label>
+							<div class="controls">
+								<label class="radio">
+									<input type="radio" id="pRaca1" value="option1"> Humano
+									<p class="help-block">Option one is this and that—be sure to include why it's great</p>
+								</label>
+								<label class="radio">
+									<input type="radio" id="optionsCheckbox" value="option1"> Elfo
+									<p class="help-block">Option one is this and that—be sure to include why it's great</p>
+								</label>
+								<label class="radio">
+									<input type="radio" id="optionsCheckbox" value="option1"> Anão
+									<p class="help-block">Option one is this and that—be sure to include why it's great</p>
+								</label>
+								<label class="radio">
+									<input type="radio" id="optionsCheckbox" value="option1"> Halfling
+									<p class="help-block">Option one is this and that—be sure to include why it's great</p>
+								</label>
+							</div>
+						</div>
+						<div class="control-group">
+							<label class="control-label" for="pRaca">Classe</label>
+							<div class="controls">
+								<label class="radio">
+									<input type="radio" id="pRaca1" value="option1"> Homem de Armas
+									<p class="help-block">Option one is this and that—be sure to include why it's great</p>
+								</label>
+								<label class="radio">
+									<input type="radio" id="optionsCheckbox" value="option1"> Clérigo
+									<p class="help-block">Option one is this and that—be sure to include why it's great</p>
+								</label>
+								<label class="radio">
+									<input type="radio" id="optionsCheckbox" value="option1"> Ladino
+									<p class="help-block">Option one is this and that—be sure to include why it's great</p>
+								</label>
+								<label class="radio">
+									<input type="radio" id="optionsCheckbox" value="option1"> Mago
+									<p class="help-block">Option one is this and that—be sure to include why it's great</p>
+								</label>
+							</div>
+						</div>
+						</fieldset>
 					</div>
-					</form>
+				</div>	
+					<hr />
+				<div class="row-fluid">
+					<h3>Combate</h3>
+					<div class="span6">
+						<fieldset>
+							<legend>Armas</legend>
+							
+						</fieldset>
+					</div>
+					<div class="span6">
+						<fieldset>
+							<legend>Estatísticas</legend>
+						</fieldset>
+					</div>
+				</div>
+				</form>
+			</div>
+		</div>
+
+			</div>
+				
 				</div>
 					
 						
 							
 			</div>
 		</div>
-
 	</div>
 </body>
 </html>
