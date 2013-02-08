@@ -46,21 +46,20 @@
 							<legend>História</legend>
 							
 							<div class="control-group">
-								<label class="control-label" for="pNome">Nome</label>
 								<div class="controls">
-									<input type="text" class="input-xlarge" id="pNome">
+									<input type="text" class="input-xlarge" placeholder="Nome" id="pNome">
 									<p class="help-block"></p>
 								</div>
 							</div>
 
 						<div class="control-group">
 							<label class="control-label" for="pSexo">Sexo</label>
-							<div class="controls">
+							<div class="controls binario">
 								<label class="radio">
-									<input type="radio" name="pSexo" id="pSexoM" value="M"> Masculino
+									<input type="radio" name="pSexo" id="pSexoM" value="M"> Masculino <i class="seta-baixo"></i>
 								</label>
 								<label class="radio">
-									<input type="radio" name="pSexo" id="pSexoF" value="F"> Feminino
+									<input type="radio" name="pSexo" id="pSexoF" value="F"> Feminino <i class="seta-cima"></i>
 								</label>
 							</div>
 						</div>
@@ -138,7 +137,7 @@
 						<div class="control-group">
 							<label for="pNivel" class="control-label">Nível</label>
 							<div class="controls">
-								<input type="number" id="pNivel" min="1" max="20">
+								<input type="number" id="pNivel" value="1" min="1" max="20">
 								<p class="help-block"></p>
 							</div>
 						</div>

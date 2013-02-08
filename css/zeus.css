@@ -5,3 +5,55 @@
 input {
   width: auto;
 }
+
+/* Campos */
+/* line 14, ../sass/zeus.scss */
+.form-vertical input {
+  border: none;
+  border-bottom: 1px solid #333333;
+  border-radius: 0;
+  outline: none;
+  box-shadow: none;
+}
+/* line 22, ../sass/zeus.scss */
+.form-vertical input:focus {
+  box-shadow: none;
+}
+/* line 27, ../sass/zeus.scss */
+.form-vertical input[type="radio"] {
+  width: 0;
+  height: 0;
+}
+/* line 31, ../sass/zeus.scss */
+.form-vertical input[type="radio"]:before {
+  display: block;
+  content: " ";
+  position: relative;
+  top: -2px;
+  left: -2px;
+  background-color: #ffffff;
+  width: 10px;
+  height: 10px;
+  border: 2px solid black;
+}
+/* line 44, ../sass/zeus.scss */
+.form-vertical input[type="radio"]:checked:after {
+  display: block;
+  content: " ";
+  position: relative;
+  top: -11px;
+  left: 3px;
+  background-color: #ffffff;
+  width: 0px;
+  height: 0px;
+  border: 2px solid black;
+}
+/* line 58, ../sass/zeus.scss */
+.form-vertical textarea {
+  border: 2px solid #333333;
+  border-radius: 0;
+  box-shadow: none;
+  overflow-y: scroll;
+  width: 100%;
+  max-width: 450px;
+}
