@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"max",
+				"max-width"
+			],
+			[
+				"border-",
+				"border-bottom"
+			],
+			[
+				"border",
+				"border"
+			],
+			[
+				"over",
+				"overflow-x"
+			],
+			[
 				"do",
 				"do"
 			],
@@ -22,10 +38,6 @@
 			[
 				"paddin",
 				"padding-top"
-			],
-			[
-				"border-",
-				"border-radius"
 			],
 			[
 				"border-b",
@@ -94,10 +106,6 @@
 			[
 				"bac",
 				"background-image"
-			],
-			[
-				"border",
-				"border-radius"
 			],
 			[
 				"border-bo",
@@ -207,7 +215,7 @@
 			"file": "pd-zeus.html",
 			"settings":
 			{
-				"buffer_size": 7163,
+				"buffer_size": 7191,
 				"line_ending": "Windows"
 			}
 		},
@@ -215,7 +223,7 @@
 			"file": "sass/zeus.scss",
 			"settings":
 			{
-				"buffer_size": 140,
+				"buffer_size": 930,
 				"line_ending": "Windows"
 			}
 		}
@@ -666,7 +674,7 @@
 					"file": "pd-zeus.html",
 					"settings":
 					{
-						"buffer_size": 7163,
+						"buffer_size": 7191,
 						"regions":
 						{
 							"TagLint":
@@ -676,8 +684,8 @@
 								"regions":
 								[
 									[
-										7141,
-										7147
+										7169,
+										7175
 									]
 								],
 								"scope": "variable.parameter"
@@ -686,8 +694,8 @@
 						"selection":
 						[
 							[
-								6946,
-								6946
+								1226,
+								1226
 							]
 						],
 						"settings":
@@ -698,7 +706,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 450.0,
+						"translation.y": 540.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -708,15 +716,15 @@
 					"file": "sass/zeus.scss",
 					"settings":
 					{
-						"buffer_size": 140,
+						"buffer_size": 930,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								71,
-								71
+								161,
+								169
 							]
 						],
 						"settings":
