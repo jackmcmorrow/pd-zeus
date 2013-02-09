@@ -6,6 +6,7 @@
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/bootstrap-responsive.css">
 	<link rel="stylesheet" href="css/zeus.css">
+	<script type="text/javascript" src="js/armas.js"></script>
 </head>
 <body>
 	<div class="container-fluid">
@@ -39,27 +40,35 @@
 		</div>
 		<div id="pFicha" class="row-fluid">
 			<div class="span12">
-				<form class="form-vertical">
+				<form class="form-inline">
 				<div class="row-fluid">
 					<div class="span6">
 						<fieldset>
 							<legend>História</legend>
 							
-							<div class="control-group">
-								<div class="controls">
-									<input type="text" class="input-xlarge" placeholder="Nome" id="pNome">
-									<p class="help-block"></p>
-								</div>
+						<div class="control-group">
+							<label class="form-label">Nome</label>
+							
+								<input type="text" class="input-xlarge" id="pNome">
+								<p class="help-block"></p>
+							
+						</div>
+						<div class="control-group">
+							<label class="control-label" for="fileInput">Avatar</label>
+							<div class="controls">
+								<input class="input-file" id="fileInput" type="file">
 							</div>
-
+						</div>
 						<div class="control-group">
 							<label class="control-label" for="pSexo">Sexo</label>
-							<div class="controls binario">
-								<label class="radio">
-									<input type="radio" name="pSexo" id="pSexoM" value="M"> Masculino <i class="seta-baixo"></i>
+							<div class="binario">
+								
+									<input type="radio" name="pSexo" id="pSexoM" value="M"> 
+								<label class="radio" for="pSexoM">Masculino <i class="seta-baixo"></i>
 								</label>
-								<label class="radio">
-									<input type="radio" name="pSexo" id="pSexoF" value="F"> Feminino <i class="seta-cima"></i>
+								
+									<input type="radio" name="pSexo" id="pSexoF" value="F"> 
+								<label class="radio" for="pSexoF">Feminino <i class="seta-cima"></i>
 								</label>
 							</div>
 						</div>
@@ -112,18 +121,6 @@
 									</select>
 								</div>
 							</div>
-							<div class="control-group">
-								<label class="control-label" for="fileInput">File input</label>
-								<div class="controls">
-									<input class="input-file" id="fileInput" type="file">
-								</div>
-							</div>
-							<div class="control-group">
-								<label class="control-label" for="textarea">Textarea</label>
-								<div class="controls">
-									<textarea class="input-xlarge" id="textarea" rows="3"></textarea>
-								</div>
-							</div>
 							<div class="form-actions">
 								<button type="submit" class="btn btn-primary">Save changes</button>
 								<button class="btn">Cancel</button>
@@ -136,52 +133,76 @@
 						
 						<div class="control-group">
 							<label for="pNivel" class="control-label">Nível</label>
+							<input type="number" size="2" id="pNivel" value="1" min="1" max="20">
+							
+						</div>
+						<div class="control-group">
+							<h4>Raça</h4>
+							<p>A raça do seu personagem modifica algumas de suas características como movimento e dados de vida máximos.</p>
 							<div class="controls">
-								<input type="number" id="pNivel" value="1" min="1" max="20">
-								<p class="help-block"></p>
+								
+								<input type="radio" name="pRaca" id="pRaca1" value="option1"> 
+								<label class="radio" for="pRaca1">Humano</label>
+								<p class="help-block">
+									9 de movimento e realizam um teste de personagem por dia, como se tivessem um nível a mais.
+								</p>
+								
+								<input type="radio" name="pRaca" id="pRaca2" value="option1"> 
+								<label class="radio" for="pRaca2">Elfo</label>
+								<p class="help-block">
+									9 de movimento e recebem um bônus de +1 nos danos causados por arcos, e calculam as magias diárias como se tivessem um nível a mais.
+									Seu dado de vida não pode ser maior do que d8
+								</p>
+								
+								<input type="radio" name="pRaca" id="pRaca3" value="option1"> 
+								<label class="radio" for="pRaca3">Anão</label>
+								<p class="help-block">
+									6 de movimento e realizam todos os testes de personagem para resistir a qualquer efeito como se tivessem dois nível a mais.
+								</p>
+								
+								<input type="radio" name="pRaca" id="pRaca4" value="option1">
+								<label class="radio" for="pRaca4">Halfling</label>
+								<p class="help-block">
+									6 de movimento e realizam os testes de personagem para se esconderem ou para furtarem (se ladrões) como se tivessem um nível a mais. 
+									Não podem usar armas que causem dano superior a 1d6.
+								</p>
 							</div>
 						</div>
 						<div class="control-group">
-							<label class="control-label" for="pRaca">Raça</label>
+							<h4>Classe</h4>
+							<p>Sua classe determina sua função no grupo. Ex: homens de armas são mais fortes, mas não lançam magias, logo cobrem a linha de frente durante um combate.</p>
 							<div class="controls">
-								<label class="radio">
-									<input type="radio" id="pRaca1" value="option1"> Humano
-									<p class="help-block">Option one is this and that—be sure to include why it's great</p>
-								</label>
-								<label class="radio">
-									<input type="radio" id="optionsCheckbox" value="option1"> Elfo
-									<p class="help-block">Option one is this and that—be sure to include why it's great</p>
-								</label>
-								<label class="radio">
-									<input type="radio" id="optionsCheckbox" value="option1"> Anão
-									<p class="help-block">Option one is this and that—be sure to include why it's great</p>
-								</label>
-								<label class="radio">
-									<input type="radio" id="optionsCheckbox" value="option1"> Halfling
-									<p class="help-block">Option one is this and that—be sure to include why it's great</p>
-								</label>
-							</div>
-						</div>
-						<div class="control-group">
-							<label class="control-label" for="pRaca">Classe</label>
-							<div class="controls">
-								<label class="radio">
-									<input type="radio" id="pRaca1" value="option1"> Homem de Armas
-									<p class="help-block">Option one is this and that—be sure to include why it's great</p>
-								</label>
-								<label class="radio">
-									<input type="radio" id="optionsCheckbox" value="option1"> Clérigo
-									<p class="help-block">Option one is this and that—be sure to include why it's great</p>
-								</label>
-								<label class="radio">
-									<input type="radio" id="optionsCheckbox" value="option1"> Ladino
-									<p class="help-block">Option one is this and that—be sure to include why it's great</p>
-								</label>
-								<label class="radio">
-									<input type="radio" id="optionsCheckbox" value="option1"> Mago
-									<p class="help-block">Option one is this and that—be sure to include why it's great</p>
-								</label>
-							</div>
+								
+								<input type="radio" id="pClasse1" name="pClasse" value="option1">
+								<label class="radio" for="pClasse1">Homem de Armas</label>
+								<p class="help-block">
+									Dado de vida: d10 <br />
+									Recebem +1 de dano quando acertam seus golpes. <br />
+									Sem restrições para armas e armaduras.
+								</p>
+								
+								<input type="radio" id="pClasse2" name="pClasse" value="option1">
+								<label class="radio" for="pClasse2">Clérigo</label>
+								<p class="help-block">
+									Dado de vida: d8 <br />
+									Podem realizar dois testes de personagem por dia por nível possuído para curarem 1d8+2 pontos de vida ou expulsarem a mesma quantidade de dados de vida de mortos vivos ao seu redor. <br />
+									Usam apenas maças e bordões. Sem restrições para armaduras.
+								</p>
+								<input type="radio" id="pClasse3" name="pClasse" value="option1"> 
+								<label class="radio" for="pClasse3">Ladino</label>
+								<p class="help-block">
+									Dado de vida: d6 <br />
+									Podem realizar um teste de personagem para se esconderem. Quando escondidos podem realizar 1 ataque somando seu nível ao seu dano <br />
+									Usam apenas armaduras de couro e armas que causem até 1d6 de dano.
+								</p>
+								<input type="radio" id="pClasse4" name="pClasse" value="option1">
+								<label class="radio" for="pClasse4">Mago</label>
+								<p class="help-block">
+									Dado de vida: d4 <br />
+									Podem lançar, diariamente, o seu nível multiplicado por dois em círculos de magias. Recebem um penalizador de –1 em todos os danos causados por armas <br />
+									Usam apenas adagas e bordões. Não usam armaduras ou escudo.
+								</p>
+							<div>
 						</div>
 						</fieldset>
 					</div>
@@ -191,8 +212,66 @@
 					<h3>Combate</h3>
 					<div class="span6">
 						<fieldset>
-							<legend>Armas</legend>
-							
+							<h4>Armas</h4>
+							<p>
+								Cada personagem iniciante pode escolher uma arma da lista de armas abaixo.
+							</p>
+							<div class="control-group">
+							<div class="controls">
+								
+								<input type="checkbox" id="pArmas1" value="adaga">
+								<label class="checkbox" for="pArmas1">Adaga</label>
+								<p class="help-block">
+									Dano 1d4 <br />
+									Iniciativa +8
+								</p>
+								
+								<input type="checkbox" id="pArmas2" value="bordao">
+								<label class="checkbox" for="pArmas2">Bordão ou Cajado </label>
+								<p class="help-block">
+									Dano 1d4<br />
+									Iniciativa +7 <br />
+									Não pode usar escudos
+								</p>
+
+								<input type="checkbox" id="pArmas3" value="arcoCurto"> 
+								<label class="checkbox" for="pArmas3">Arco curto</label>
+								<p class="help-block">
+									Dano 1d6 <br> 
+									Iniciativa +3 <br>
+									(não pode usar escudos)
+								</p>
+
+								<input type="checkbox" id="pArmas4" value="espadaCurta">
+								<label class="checkbox" for="pArmas4">Espada curta</label>
+								<p class="help-block">
+									Dano 1d6 <br>
+									Iniciativa +7
+								</p>
+
+								<input type="checkbox" id="pArmas5" value="espadaLonga">
+								<label class="checkbox" for="pArmas5">Espada longa</label>
+								<p class="help-block">
+									Dano 1d8 <br>
+									Iniciativa +5
+								</p>
+
+								<input type="checkbox" id="pArmas6" value="espadaCurta">
+								<label class="checkbox" for="pArmas6">Maça</label>
+								<p class="help-block">
+									Dano 1d6 <br>
+									Iniciativa +7
+								</p>
+
+								<input type="checkbox" id="pArmas4" value="espadaCurta">
+								<label class="checkbox" for="pArmas4">Espada curta</label>
+								<p class="help-block">
+									Dano 1d6 <br>
+									Iniciativa +7
+								</p>
+							</div>
+							</div>
+						</div>
 						</fieldset>
 					</div>
 					<div class="span6">

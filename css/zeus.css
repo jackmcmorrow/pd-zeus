@@ -8,7 +8,7 @@ input {
 
 /* Campos */
 /* line 14, ../sass/zeus.scss */
-.form-vertical input {
+.form-inline input {
   border: none;
   border-bottom: 1px solid #333333;
   border-radius: 0;
@@ -16,44 +16,45 @@ input {
   box-shadow: none;
 }
 /* line 22, ../sass/zeus.scss */
-.form-vertical input:focus {
+.form-inline input:focus {
   box-shadow: none;
 }
 /* line 27, ../sass/zeus.scss */
-.form-vertical input[type="radio"] {
+.form-inline input[type="radio"] {
   width: 0;
   height: 0;
+  margin-right: 13px;
 }
-/* line 31, ../sass/zeus.scss */
-.form-vertical input[type="radio"]:before {
+/* line 32, ../sass/zeus.scss */
+.form-inline input[type="radio"]:before {
   display: block;
   content: " ";
   position: relative;
-  top: -2px;
-  left: -2px;
+  top: -8px;
+  left: 0px;
   background-color: #ffffff;
   width: 10px;
   height: 10px;
   border: 2px solid black;
 }
-/* line 44, ../sass/zeus.scss */
-.form-vertical input[type="radio"]:checked:after {
+/* line 45, ../sass/zeus.scss */
+.form-inline input[type="radio"]:checked:after {
   display: block;
   content: " ";
   position: relative;
-  top: -11px;
-  left: 3px;
-  background-color: #ffffff;
+  top: -17px;
+  left: 5px;
+  background-color: #ff0000;
   width: 0px;
   height: 0px;
   border: 2px solid black;
 }
-/* line 58, ../sass/zeus.scss */
-.form-vertical textarea {
+/* line 59, ../sass/zeus.scss */
+.form-inline textarea {
   border: 2px solid #333333;
   border-radius: 0;
   box-shadow: none;
   overflow-y: scroll;
   width: 100%;
-  max-width: 450px;
+  max-width: 300px;
 }
