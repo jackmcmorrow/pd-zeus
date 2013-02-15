@@ -4,20 +4,24 @@
 		"selected_items":
 		[
 			[
-				"max",
-				"max-width"
+				"lista",
+				"listaDeArmas"
 			],
 			[
-				"border-",
-				"border-bottom"
+				"maca",
+				"maca"
 			],
 			[
-				"border",
-				"border"
+				"i",
+				"i"
 			],
 			[
-				"over",
-				"overflow-x"
+				"curta",
+				"curta"
+			],
+			[
+				"usa",
+				"usarEscudo"
 			],
 			[
 				"do",
@@ -38,6 +42,10 @@
 			[
 				"paddin",
 				"padding-top"
+			],
+			[
+				"border-",
+				"border-radius"
 			],
 			[
 				"border-b",
@@ -106,6 +114,10 @@
 			[
 				"bac",
 				"background-image"
+			],
+			[
+				"border",
+				"border-radius"
 			],
 			[
 				"border-bo",
@@ -215,7 +227,33 @@
 			"file": "pd-zeus.html",
 			"settings":
 			{
-				"buffer_size": 7191,
+				"buffer_size": 10423,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/armas.js",
+			"settings":
+			{
+				"buffer_size": 1965,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "Package Control Messages\n========================\n\nEmmet:\n-----\n\n  Thank you for installing Emmet -- a toolkit that can greatly improve your workflow. Note that this plugin automatically downloads and installs PyV8 binary (see status bar message). \n  \n  ******************************\n  Please restart editor \n  to finish installation process \n  after PyV8 was downloaded.\n  ******************************\n  \n  Tab key handler\n  ==========================\n  \n  By default, Emmet allows you to expand abbreviations with Tab key in HTML, XML, HAML and CSS/SASS/LESS/Stylus documents. As a side effect, you can’t use some of your ST2 snippets.\n  \n  Please read https://github.com/sergeche/emmet-sublime#tab-key-handler about how Tab handler works and how to tweak its behavior to match your needs.\n  \n  Enter key\n  ==========================\n  \n  In HTML and XML documents, Emmet overrides Enter key to insert formatted line breaks between opening and closing tags. In some cases it will break character input (for example, in Japanese language).\n  \n  To disable Enter key handler, simply add the following option in your user's Preferences file:\n  \n  \"disable_formatted_linebreak\": true\n  \n  Actions shortcuts\n  ==========================\n  \n  Emmet has a number of actions with keyboard shortcuts that may override ones you're using commonly (for example, Ctrl-E or Ctrl-Down). Please read the project main page to get list of available actions and keyboard shortcuts and how to disable them:\n  https://github.com/sergeche/emmet-sublime\n  \n  Documentation and examples:\n  http://docs.emmet.io\n  \n  ------------------------------\n  Follow me on Twitter: @emmetio\n  ------------------------------\n  \n",
+			"settings":
+			{
+				"buffer_size": 1697,
+				"line_ending": "Windows",
+				"name": "Package Control Messages",
+				"scratch": true
+			}
+		},
+		{
+			"file": "js/main.js",
+			"settings":
+			{
+				"buffer_size": 261,
 				"line_ending": "Windows"
 			}
 		},
@@ -223,7 +261,7 @@
 			"file": "sass/zeus.scss",
 			"settings":
 			{
-				"buffer_size": 930,
+				"buffer_size": 949,
 				"line_ending": "Windows"
 			}
 		}
@@ -231,12 +269,16 @@
 	"build_system": "Packages/LESS-build/LESS.sublime-build",
 	"command_palette":
 	{
-		"height": 375.0,
+		"height": 58.0,
 		"selected_items":
 		[
 			[
 				"install",
 				"Package Control: Install Package"
+			],
+			[
+				"disable",
+				"Package Control: Disable Package"
 			],
 			[
 				"form",
@@ -359,7 +401,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 514.0
+		"width": 424.0
 	},
 	"console":
 	{
@@ -526,6 +568,7 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"div",
 			"form",
 			"		\n",
 			"total = BigNum.new",
@@ -666,7 +709,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -674,7 +717,7 @@
 					"file": "pd-zeus.html",
 					"settings":
 					{
-						"buffer_size": 7191,
+						"buffer_size": 10423,
 						"regions":
 						{
 							"TagLint":
@@ -684,8 +727,8 @@
 								"regions":
 								[
 									[
-										7169,
-										7175
+										10401,
+										10407
 									]
 								],
 								"scope": "variable.parameter"
@@ -694,8 +737,8 @@
 						"selection":
 						[
 							[
-								1226,
-								1226
+								404,
+								404
 							]
 						],
 						"settings":
@@ -703,36 +746,118 @@
 							"auto_name": "",
 							"is_xml": false,
 							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"translate_tabs_to_spaces": false,
+							"word_wrap": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 540.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "sass/zeus.scss",
+					"file": "js/armas.js",
 					"settings":
 					{
-						"buffer_size": 930,
+						"buffer_size": 1965,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								161,
-								169
+								1293,
+								1293
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+							"is_xml": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 188.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"settings":
+					{
+						"buffer_size": 1697,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1697,
+								1697
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 187.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "js/main.js",
+					"settings":
+					{
+						"buffer_size": 261,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								219,
+								224
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "sass/zeus.scss",
+					"settings":
+					{
+						"buffer_size": 949,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								938,
+								938
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 557.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -798,7 +923,7 @@
 	},
 	"show_minimap": true,
 	"show_open_files": true,
-	"show_tabs": false,
+	"show_tabs": true,
 	"side_bar_visible": true,
 	"side_bar_width": 159.0,
 	"status_bar_visible": true
