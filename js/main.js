@@ -1,15 +1,29 @@
 var personagens = new Array;
 
-var Personagem = function (nome, nivel, xp, classe, raca, armas) {
+var Personagem = function (nome, nivel, classe, xp, raca, armas) {
 	this.nome = nome;
-	this.xp = xp; // TODO: Criar uma funçãozinha para mudar o nível conforme classe e xp
 	this.nivel = nivel;
 	this.classe = classe;
+	this.xp = xp; // TODO: Criar uma funçãozinha para mudar o nível conforme xp
+	if (xp >= 2000) {
+		 this.nivel = Math.floor(xp / 2000) + 1;
+		 console.log(Math.floor(xp / 2000))
+	}
 	this.raca = raca;
 	this.armas = armas;
+	this.equipamentos;
 };
 
-meuPersonagem = new Personagem('oioi', 1, 0, 0, [adaga, espadaCurta]);
+var Subatributos = function (movimento, pv, ca, ataque, tdp) {
+	this.movimento = movimento;
+	//Função que pega a raca e joga no movimento
+	this.pv = pv;
+	this.ca = ca;
+	this.ataque = ataque;
+	this.tdp = tdp;
+}
+
+meuPersonagem = new Personagem('oioi', 1, 0, 3300, 1, [adaga, espadaCurta]);
 console.log(meuPersonagem);
 
 //Método do objeto Array para gerar html dos checkboxes de armas

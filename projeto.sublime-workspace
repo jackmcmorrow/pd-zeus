@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"o",
+				"o"
+			],
+			[
 				"lista",
 				"listaDeArmas"
 			],
@@ -227,33 +231,41 @@
 			"file": "pd-zeus.html",
 			"settings":
 			{
-				"buffer_size": 10423,
+				"buffer_size": 8966,
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/classes.js",
+			"settings":
+			{
+				"buffer_size": 533,
+				"line_ending": "Windows",
+				"name": "//Criando classe de objeto"
+			}
+		},
+		{
+			"file": "js/racas.js",
+			"settings":
+			{
+				"buffer_size": 196,
+				"line_ending": "Windows",
+				"name": "//Raças"
 			}
 		},
 		{
 			"file": "js/armas.js",
 			"settings":
 			{
-				"buffer_size": 1965,
+				"buffer_size": 1321,
 				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "Package Control Messages\n========================\n\nEmmet:\n-----\n\n  Thank you for installing Emmet -- a toolkit that can greatly improve your workflow. Note that this plugin automatically downloads and installs PyV8 binary (see status bar message). \n  \n  ******************************\n  Please restart editor \n  to finish installation process \n  after PyV8 was downloaded.\n  ******************************\n  \n  Tab key handler\n  ==========================\n  \n  By default, Emmet allows you to expand abbreviations with Tab key in HTML, XML, HAML and CSS/SASS/LESS/Stylus documents. As a side effect, you can’t use some of your ST2 snippets.\n  \n  Please read https://github.com/sergeche/emmet-sublime#tab-key-handler about how Tab handler works and how to tweak its behavior to match your needs.\n  \n  Enter key\n  ==========================\n  \n  In HTML and XML documents, Emmet overrides Enter key to insert formatted line breaks between opening and closing tags. In some cases it will break character input (for example, in Japanese language).\n  \n  To disable Enter key handler, simply add the following option in your user's Preferences file:\n  \n  \"disable_formatted_linebreak\": true\n  \n  Actions shortcuts\n  ==========================\n  \n  Emmet has a number of actions with keyboard shortcuts that may override ones you're using commonly (for example, Ctrl-E or Ctrl-Down). Please read the project main page to get list of available actions and keyboard shortcuts and how to disable them:\n  https://github.com/sergeche/emmet-sublime\n  \n  Documentation and examples:\n  http://docs.emmet.io\n  \n  ------------------------------\n  Follow me on Twitter: @emmetio\n  ------------------------------\n  \n",
-			"settings":
-			{
-				"buffer_size": 1697,
-				"line_ending": "Windows",
-				"name": "Package Control Messages",
-				"scratch": true
 			}
 		},
 		{
 			"file": "js/main.js",
 			"settings":
 			{
-				"buffer_size": 261,
+				"buffer_size": 910,
 				"line_ending": "Windows"
 			}
 		},
@@ -717,7 +729,7 @@
 					"file": "pd-zeus.html",
 					"settings":
 					{
-						"buffer_size": 10423,
+						"buffer_size": 8966,
 						"regions":
 						{
 							"TagLint":
@@ -727,8 +739,8 @@
 								"regions":
 								[
 									[
-										10401,
-										10407
+										8944,
+										8950
 									]
 								],
 								"scope": "variable.parameter"
@@ -737,8 +749,8 @@
 						"selection":
 						[
 							[
-								404,
-								404
+								8610,
+								8610
 							]
 						],
 						"settings":
@@ -750,83 +762,31 @@
 							"word_wrap": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 2868.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "js/armas.js",
+					"file": "js/classes.js",
 					"settings":
 					{
-						"buffer_size": 1965,
+						"buffer_size": 533,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1293,
-								1293
+								170,
+								170
 							]
 						],
 						"settings":
 						{
+							"auto_name": "//Criando classe de objeto",
 							"is_xml": false,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 188.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"settings":
-					{
-						"buffer_size": 1697,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1697,
-								1697
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"word_wrap": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 187.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "js/main.js",
-					"settings":
-					{
-						"buffer_size": 261,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								219,
-								224
-							]
-						],
-						"settings":
-						{
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
 						},
 						"translation.x": 0.0,
@@ -836,7 +796,89 @@
 					"type": "text"
 				},
 				{
+					"buffer": 2,
+					"file": "js/racas.js",
+					"settings":
+					{
+						"buffer_size": 196,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								194,
+								194
+							]
+						],
+						"settings":
+						{
+							"auto_name": "//Raças",
+							"is_xml": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "js/armas.js",
+					"settings":
+					{
+						"buffer_size": 1321,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1321,
+								1321
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 31.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
 					"buffer": 4,
+					"file": "js/main.js",
+					"settings":
+					{
+						"buffer_size": 910,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								541,
+								541
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 99.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
 					"file": "sass/zeus.scss",
 					"settings":
 					{
@@ -857,7 +899,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 557.0,
+						"translation.y": 629.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
