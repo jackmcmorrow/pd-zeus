@@ -1,8 +1,8 @@
 //Definindo Variáveis que vou usar
 var armas = new Array;
 
-//Criando classe Arma
-function Arma(valor, nome, dano, init, usarEscudo, html) {
+//Criando classe pArma
+function pArma(valor, nome, dano, init, usarEscudo, html) {
 	this.valor = valor;
 	this.nome = nome;
 	this.dano = dano;
@@ -25,12 +25,12 @@ function Arma(valor, nome, dano, init, usarEscudo, html) {
 }
 
 //Instanciando objetos
-	var adaga = new Arma('adaga', 'Adaga', 						'1d4', 8, true);
-	var bordao = new Arma('bordao', 'Bordão ou Cajado', 		'1d4', 7, false);
-	var arcoCurto = new Arma('arcoCurto', 'Arco Curto', 		'1d6', 3, false);
-	var espadaCurta = new Arma('espadaCurta', 'Espada curta', 	'1d6', 7, true);
-	var espadaLonga = new Arma('espadaLonga', 'Espada longa', 	'1d8', 5, true);
-	var maca = new Arma('maca', 'Maça', 						'1d8', 3, true);
-	var machado = new Arma('machado', 'Machado', 				'1d8', 3, true);
-	var montante = new Arma('montante', 'Montante', 			'1d10', 1, true);
+	var adaga = new pArma('adaga', 'Adaga', 						'1d4', 8, true);
+	var bordao = new pArma('bordao', 'Bordão ou Cajado', 		'1d4', 7, false);
+	var arcoCurto = new pArma('arcoCurto', 'Arco Curto', 		'1d6', 3, false);
+	var espadaCurta = new pArma('espadaCurta', 'Espada curta', 	'1d6', 7, true);
+	var espadaLonga = new pArma('espadaLonga', 'Espada longa', 	'1d8', 5, true);
+	var maca = new pArma('maca', 'Maça', 						'1d8', 3, true);
+	var machado = new pArma('machado', 'Machado', 				'1d8', 3, true);
+	var montante = new pArma('montante', 'Montante', 			'1d10', 1, true);
 
